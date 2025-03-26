@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e2e2ae;
+}
+#outlineBox{
+    width: 470px;
+    height: 550px;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    
+}
+#box{
+    width: 400px;
+    height: 480px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 15px;
+
+}
+.textInput{
+    display: block;
+    float: left;
+    margin: 10px 0px 0px 20px;
+    font-size: 1.5rem;
+}
+input {
+    display: block;
+    float: left;
+    width: 85%;
+    height: 50px;
+    margin: 10px 0px 0px 20px;
+    padding-left: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input:focus{
+    outline: none;
+}
+#box div h1{
+    margin: 20px 0px 0px 20px;
+}
+button{
+    display: block;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 89.5%;
+    height: 50px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: #e7bb08;
+    cursor: pointer;
+}
+#result{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 85%;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 26px;
+}
+#type{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 85%;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 26px;
+}
